@@ -1,3 +1,4 @@
+
 package Servlet;
 
 import java.io.IOException;
@@ -71,5 +72,4 @@ public class ApplicantDashBoardServlet extends HttpServlet {
             response.sendRedirect("login.jsp?error=Applicant");
 		}
 	}
-
 }
